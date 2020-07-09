@@ -143,6 +143,7 @@ def replace_head(input_list):
 
     """
     input_list[0] = 42 
+    #4 failures to go
 
     pass
 
@@ -156,9 +157,11 @@ def replace_third_and_last(input_list):
     >>> replace_third_and_last(multiples)
     >>> multiples == [0, 3, 37, 9, 12, 15, 18, 21, 24, 37]
     True
-
+    
     """
-
+    input_list[2] = 37
+    input_list[-1] = 37
+    #3 failures to go
     pass
 
 
@@ -177,7 +180,8 @@ def replace_middle(input_list):
     True
 
     """
-
+    input_list[2:-2] = [42,37]
+    #2 failures
     pass
 
 
@@ -192,7 +196,9 @@ def delete_third_and_seventh(input_list):
     True
 
     """
-
+    input_list[2:3] = []
+    input_list[5:6] = []
+    #1 fail
     pass
 
 
@@ -209,7 +215,7 @@ def delete_middle(input_list):
     True
 
     """
-
+    input_list = input_list[0:2] + input_list[-2:]
     pass
 
 
