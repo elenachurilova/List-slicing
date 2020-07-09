@@ -111,6 +111,7 @@ def inner_four(input_list):
     """
 
     return input_list[2:6]
+    #6 failures to go
 
 
 def inner_four_end(input_list):
@@ -126,7 +127,8 @@ def inner_four_end(input_list):
 
     """
 
-    return []
+    return input_list[-6:-2]
+    #5 failures to go
 
 
 def replace_head(input_list):
