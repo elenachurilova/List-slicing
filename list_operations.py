@@ -68,7 +68,8 @@ def first_three(input_list):
 
     """
 
-    return []
+    return input_list[:3]
+    #9 failures to go...
 
 
 def last_five(input_list):
