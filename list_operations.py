@@ -1,5 +1,7 @@
 """Utilities for manipulating lists."""
 
+#14 failures to go
+
 
 def head(input_list):
     """Return the first item of the input list.
@@ -11,6 +13,7 @@ def head(input_list):
     """
 
     return input_list[0]
+    #13 failures to go
 
 
 def tail(input_list):
@@ -24,6 +27,7 @@ def tail(input_list):
     """
     tail_list = input_list[1:]
     return tail_list
+    #12 failures to go
 
 
 def last(input_list):
@@ -37,6 +41,7 @@ def last(input_list):
     """
 
     return input_list[-1]
+    #11 failures to go
 
 
 def top(input_list):
@@ -49,7 +54,8 @@ def top(input_list):
 
     """
 
-    return []
+    return input_list[:-1]
+    #10 failures to go...
 
 
 def first_three(input_list):
