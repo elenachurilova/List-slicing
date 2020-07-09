@@ -82,7 +82,8 @@ def last_five(input_list):
 
     """
 
-    return []
+    return input_list[-5:]
+    #8 failures to go
 
 
 def middle(input_list):
